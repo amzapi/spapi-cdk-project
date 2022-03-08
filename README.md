@@ -2,7 +2,9 @@
 
 自动创建账号,角色,配置策略,创建sqs并授权 等等
 
+#### 注意 区域要统一
 #### 注意 EventBridge 需要手动配置
+#### 注意 这里只演示了简单的玩法,sqs和eventBridge还可以添加各种触发器,比如lambda函数,webhook 等等 去处理通知
 
 ### 1、先安装 aws-cli 和 aws-cdk 命令行工具
 
