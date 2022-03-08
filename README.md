@@ -15,9 +15,9 @@ $ npm i -g aws-cdk
 
 1. 先去创建开发账号 https://us-east-1.console.aws.amazon.com/iam/home#/users$new?step=details
    ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2021.41.31.png)
-   ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 21.44.34.png)
+   ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2021.44.34.png)
 2. 下一步下一步创建完成 保存密匙信息
-   ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 21.46.38.png)
+   ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2021.46.38.png)
 3. 配置本地aws配置信息
 ```shell
 $ aws configure
@@ -40,10 +40,10 @@ $ cdk deploy
 ```
 
 ### 4、EventBridge 事件通知配置,直接看图吧
-![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 22.05.08.png)
-![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 22.11.49.png)
-![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 22.12.39.png)
-![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 22.17.22.png)
-![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08 22.20.00.png)
+![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.05.08.png)
+![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.11.49.png)
+![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.12.39.png)
+![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.17.22.png)
+![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.20.00.png)
 
 # 剩下的就是api的事情啦,去疯狂的订阅吧! 所有的消息都会在sqs里面了,去拿就好啦!
