@@ -48,4 +48,6 @@ $ cdk deploy
 ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.17.22.png)
 ![](https://raw.githubusercontent.com/amzapi/spapi-cdk-project/main/doc/iShot2022-03-08%2022.20.00.png)
 
+### 漏了最后一步没截图, 事件总线->操作->开始发现
+
 # 剩下的就是api的事情啦,去疯狂的订阅吧! 所有的消息都会在sqs里面了,去拿就好啦!
